@@ -5,9 +5,9 @@ This project aims to deploy a high-availability web application on kubernetes us
 # Prerequisites
 Before getting started, make sure you have the following:
 
-. An AWS account
-. AWS CLI installed and configured
-. Terraform installed
+* An AWS account
+* AWS CLI installed and configured
+* Terraform installed
 
 # Additional Instructions
 To access the MongoDB database, use the provided connection string in the application configuration.
