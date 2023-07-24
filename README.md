@@ -16,7 +16,7 @@ I used both AWS and Kubernets providers to provision resources using terraform
     * provisioned the eks cluster on AWS using AWS provider and resources ( You can do that using the AWS modules )
 
 2. Kubernetes Provider:
-    * firstly, git clone <<my-app-code>>
+    * firstly, git clone "<my-app-code>"
     * built the docker image then pushed the image to dockerhub so that it can be used later in kubernets deployment manifest
     * Configured and provisioned containers to run the web application, MongoDB, SQL Server, and Redis using the Kubernetes provider.
 
