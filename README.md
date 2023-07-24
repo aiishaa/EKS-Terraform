@@ -12,13 +12,13 @@ Before getting started, make sure you have the following:
 # Infrastructure Provisioning:
 I used both AWS and Kubernets providers to provision resources using terraform
 1. AWS provider:
-  * Configure the eks cluster vpc that span two AZs for high-availability, including network security groups, firewall rules, and access controls for all components for         security and configured auto-scaling groups for scalability
-  * provisioned the eks cluster on AWS using AWS provider and resources ( You can do that using the AWS modules )
+    * Configure the eks cluster vpc that span two AZs for high-availability, including network security groups, firewall rules, and access controls for all components for         security and configured auto-scaling groups for scalability
+    * provisioned the eks cluster on AWS using AWS provider and resources ( You can do that using the AWS modules )
 
 2. Kubernetes Provider:
-  * firstly, git clone <my-app-code>
-  * built the docker image then pushed the image to dockerhub so that it can be used later in kubernets deployment manifest
-  * Configured and provisioned containers to run the web application, MongoDB, SQL Server, and Redis using the Kubernetes provider.
+    * firstly, git clone <my-app-code>
+    * built the docker image then pushed the image to dockerhub so that it can be used later in kubernets deployment manifest
+    * Configured and provisioned containers to run the web application, MongoDB, SQL Server, and Redis using the Kubernetes provider.
 
 # Load Balancer, Domain Name and SSL Certificate
 * I exposed my web application to the internet using AWS ingress-ALB
