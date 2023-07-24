@@ -24,7 +24,7 @@ I used both AWS and Kubernets providers to provision resources using terraform
 * I exposed my web application to the internet using AWS ingress-ALB
 * I configured an AWS route53 zone and then configured an AWS domain for the web application
 * Then, created a CNAME record so that my AWS route53 domain point to the ingress-ALB default dns name
-* Then, I requested an /**aws acm certificate**/ and attach it to my domain name 
+* Then, I requested an **aws acm certificate** and attach it to my domain name 
 
 # Databases
 * configured the configMaps, secrets manifests to store the sensitive information
