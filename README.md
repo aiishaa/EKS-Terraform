@@ -21,9 +21,9 @@ I used both AWS and Kubernets providers to provision resources using terraform
     * Configured and provisioned containers to run the web application, MongoDB, SQL Server, and Redis using the Kubernetes provider.
 
 # Load Balancer, Domain Name and SSL Certificate
-* I exposed my web application to the internet using AWS ingress-ALB
+* I exposed my web application to the internet using AWS EKS ALB-ingress
 * I configured an AWS route53 zone and then configured an AWS domain for the web application
-* Then, created a CNAME record so that my AWS route53 domain point to the ingress-ALB default dns name
+* Then, created a CNAME record so that my AWS route53 domain point to the AWS EKS ALB-ingress default dns name
 * Then, I requested an **aws acm certificate** and attach it to my domain name 
 
 # Databases
