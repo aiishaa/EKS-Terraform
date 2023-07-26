@@ -30,7 +30,3 @@ I used both AWS and Kubernets providers to provision resources using terraform
 * configured the configMaps, secrets manifests to store the sensitive information
 * Provisioned MongoDB, SQL Server, and Redis instances
 
-# Additional Instructions
-* To access the MongoDB database, use the provided connection string in the application configuration.
-* To access the SQL Server database, use the provided connection string in the application configuration.
-* To access the Redis caching layer, use the provided Redis endpoint in the application configuration.
