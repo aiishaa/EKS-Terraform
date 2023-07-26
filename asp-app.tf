@@ -106,6 +106,7 @@ resource "kubernetes_ingress_v1" "my-ingress" {
     name = "my-ingress"
   }
   spec {
+    host = 'my-very-unique-website.com'
     rule {
       http {
         path {
